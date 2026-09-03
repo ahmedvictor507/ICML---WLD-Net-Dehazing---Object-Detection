@@ -1,0 +1,58 @@
+device: cuda
+classes: {0: 'car', 1: 'exit', 2: 'person', 3: 'warning'}
+
+=== human(2)_test(1).mp4 ===
+  200/1803 frames  (10.2 fps end-to-end)
+  400/1803 frames  (10.6 fps end-to-end)
+  600/1803 frames  (10.7 fps end-to-end)
+  800/1803 frames  (10.7 fps end-to-end)
+  1000/1803 frames  (10.6 fps end-to-end)
+  1200/1803 frames  (10.5 fps end-to-end)
+  1400/1803 frames  (10.6 fps end-to-end)
+  1600/1803 frames  (10.6 fps end-to-end)
+  1800/1803 frames  (10.7 fps end-to-end)
+  done: 1803 frames, det 986 -> 1018
+
+=== Human (3).mp4 ===
+  200/603 frames  (10.1 fps end-to-end)
+  400/603 frames  (10.3 fps end-to-end)
+  600/603 frames  (10.4 fps end-to-end)
+  done: 603 frames, det 2009 -> 1884
+
+=== Object(3).mp4 ===
+  200/2911 frames  (8.1 fps end-to-end)
+  400/2911 frames  (8.2 fps end-to-end)
+  600/2911 frames  (8.2 fps end-to-end)
+  800/2911 frames  (8.2 fps end-to-end)
+  1000/2911 frames  (8.3 fps end-to-end)
+  1200/2911 frames  (8.3 fps end-to-end)
+  1400/2911 frames  (8.4 fps end-to-end)
+  1600/2911 frames  (8.4 fps end-to-end)
+  1800/2911 frames  (8.4 fps end-to-end)
+  2000/2911 frames  (8.5 fps end-to-end)
+  2200/2911 frames  (8.5 fps end-to-end)
+  2400/2911 frames  (8.5 fps end-to-end)
+  2600/2911 frames  (8.5 fps end-to-end)
+  2800/2911 frames  (8.5 fps end-to-end)
+  done: 2911 frames, det 2902 -> 2905
+
+=== Object(6).mp4 ===
+  200/3277 frames  (8.3 fps end-to-end)
+  400/3277 frames  (8.5 fps end-to-end)
+  600/3277 frames  (8.6 fps end-to-end)
+  800/3277 frames  (8.6 fps end-to-end)
+  1000/3277 frames  (8.6 fps end-to-end)
+  1200/3277 frames  (8.6 fps end-to-end)
+  1400/3277 frames  (8.6 fps end-to-end)
+  1600/3277 frames  (8.6 fps end-to-end)
+  1800/3277 frames  (8.6 fps end-to-end)
+  2000/3277 frames  (8.7 fps end-to-end)
+  2200/3277 frames  (8.7 fps end-to-end)
+  2400/3277 frames  (8.7 fps end-to-end)
+  2600/3277 frames  (8.8 fps end-to-end)
+  2800/3277 frames  (8.7 fps end-to-end)
+  3000/3277 frames  (8.7 fps end-to-end)
+  3200/3277 frames  (8.7 fps end-to-end)
+  done: 3277 frames, det 2349 -> 2032
+
+All done -> /home/orin_nano/Desktop/Projects/dehazing_gui/paper_results

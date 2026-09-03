@@ -1,0 +1,60 @@
+{
+  "backend": "trt",
+  "clip": "Object(3).mp4",
+  "resolution": "1024x1024",
+  "conf": 0.25,
+  "frames_timed": 500,
+  "warmup_discarded": 30,
+  "clock_state": {
+    "cpu_governor": "schedutil",
+    "gpu_cur_hz": 1020000000,
+    "gpu_max_hz": 1020000000,
+    "gpu_at_max": true,
+    "mem_available_mb": 3205
+  },
+  "frames_with_no_detection": 0,
+  "stages_ms": {
+    "decode": {
+      "mean": 5.81,
+      "median": 5.73,
+      "p95": 6.33,
+      "p99": 7.0,
+      "min": 5.48,
+      "max": 10.56
+    },
+    "preprocess": {
+      "mean": 25.35,
+      "median": 25.15,
+      "p95": 26.76,
+      "p99": 28.16,
+      "min": 24.5,
+      "max": 30.27
+    },
+    "dehaze": {
+      "mean": 78.38,
+      "median": 78.11,
+      "p95": 89.36,
+      "p99": 94.38,
+      "min": 69.75,
+      "max": 101.87
+    },
+    "detect": {
+      "mean": 27.19,
+      "median": 26.17,
+      "p95": 32.02,
+      "p99": 35.52,
+      "min": 23.25,
+      "max": 39.0
+    },
+    "end_to_end": {
+      "mean": 136.73,
+      "median": 135.26,
+      "p95": 150.11,
+      "p99": 156.54,
+      "min": 124.72,
+      "max": 164.17
+    }
+  },
+  "fps_mean": 7.31,
+  "fps_p99_worst_case": 6.39
+}

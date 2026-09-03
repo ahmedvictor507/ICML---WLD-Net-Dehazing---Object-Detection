@@ -1,0 +1,220 @@
+[
+  {
+    "video": "human(2)_test(1).mp4",
+    "source_resolution": "720x720",
+    "processed_resolution": "512x512",
+    "fps": 30.0,
+    "frames": 1803,
+    "conf_threshold": 0.25,
+    "original": {
+      "total_det": 986,
+      "frames_with_det": 686,
+      "per_class": {
+        "person": 963,
+        "warning": 23
+      },
+      "mean_conf_per_class": {
+        "person": 0.688,
+        "warning": 0.392
+      },
+      "mean_det_per_frame": 0.547,
+      "detection_rate": 0.38,
+      "mean_conf_overall": 0.681
+    },
+    "dehazed": {
+      "total_det": 1018,
+      "frames_with_det": 695,
+      "per_class": {
+        "person": 994,
+        "warning": 20,
+        "exit": 4
+      },
+      "mean_conf_per_class": {
+        "person": 0.652,
+        "warning": 0.414,
+        "exit": 0.464
+      },
+      "mean_det_per_frame": 0.565,
+      "detection_rate": 0.385,
+      "mean_conf_overall": 0.647
+    },
+    "timing_ms_per_frame": {
+      "dehaze": 31.77,
+      "detect_two_passes": 43.12,
+      "end_to_end": 93.84
+    },
+    "figures": [
+      "human2_test1_f00360_cmp.png",
+      "human2_test1_f00720_cmp.png",
+      "human2_test1_f01052_cmp.png",
+      "human2_test1_f01081_cmp.png",
+      "human2_test1_f01241_cmp.png",
+      "human2_test1_f01242_cmp.png",
+      "human2_test1_f01243_cmp.png",
+      "human2_test1_f01244_cmp.png",
+      "human2_test1_f01283_cmp.png",
+      "human2_test1_f01441_cmp.png"
+    ]
+  },
+  {
+    "video": "Human (3).mp4",
+    "source_resolution": "720x720",
+    "processed_resolution": "512x512",
+    "fps": 30.0,
+    "frames": 603,
+    "conf_threshold": 0.25,
+    "original": {
+      "total_det": 2009,
+      "frames_with_det": 592,
+      "per_class": {
+        "car": 363,
+        "person": 1211,
+        "warning": 435
+      },
+      "mean_conf_per_class": {
+        "car": 0.644,
+        "person": 0.615,
+        "warning": 0.469
+      },
+      "mean_det_per_frame": 3.332,
+      "detection_rate": 0.982,
+      "mean_conf_overall": 0.589
+    },
+    "dehazed": {
+      "total_det": 1884,
+      "frames_with_det": 595,
+      "per_class": {
+        "car": 434,
+        "person": 1152,
+        "warning": 298
+      },
+      "mean_conf_per_class": {
+        "car": 0.604,
+        "person": 0.695,
+        "warning": 0.426
+      },
+      "mean_det_per_frame": 3.124,
+      "detection_rate": 0.987,
+      "mean_conf_overall": 0.631
+    },
+    "timing_ms_per_frame": {
+      "dehaze": 32.04,
+      "detect_two_passes": 45.47,
+      "end_to_end": 96.39
+    },
+    "figures": [
+      "Human_3_f00008_cmp.png",
+      "Human_3_f00120_cmp.png",
+      "Human_3_f00151_cmp.png",
+      "Human_3_f00240_cmp.png",
+      "Human_3_f00361_cmp.png",
+      "Human_3_f00414_cmp.png",
+      "Human_3_f00415_cmp.png",
+      "Human_3_f00481_cmp.png",
+      "Human_3_f00599_cmp.png",
+      "Human_3_f00601_cmp.png"
+    ]
+  },
+  {
+    "video": "Object(3).mp4",
+    "source_resolution": "1920x1080",
+    "processed_resolution": "512x512",
+    "fps": 30.0,
+    "frames": 2911,
+    "conf_threshold": 0.25,
+    "original": {
+      "total_det": 2902,
+      "frames_with_det": 2902,
+      "per_class": {
+        "warning": 2902
+      },
+      "mean_conf_per_class": {
+        "warning": 0.884
+      },
+      "mean_det_per_frame": 0.997,
+      "detection_rate": 0.997,
+      "mean_conf_overall": 0.884
+    },
+    "dehazed": {
+      "total_det": 2905,
+      "frames_with_det": 2905,
+      "per_class": {
+        "warning": 2905
+      },
+      "mean_conf_per_class": {
+        "warning": 0.875
+      },
+      "mean_det_per_frame": 0.998,
+      "detection_rate": 0.998,
+      "mean_conf_overall": 0.875
+    },
+    "timing_ms_per_frame": {
+      "dehaze": 36.31,
+      "detect_two_passes": 48.13,
+      "end_to_end": 117.67
+    },
+    "figures": [
+      "Object3_f00534_cmp.png",
+      "Object3_f00555_cmp.png",
+      "Object3_f00582_cmp.png",
+      "Object3_f01164_cmp.png",
+      "Object3_f01238_cmp.png",
+      "Object3_f01239_cmp.png",
+      "Object3_f01246_cmp.png",
+      "Object3_f01746_cmp.png",
+      "Object3_f02328_cmp.png",
+      "Object3_f02551_cmp.png"
+    ]
+  },
+  {
+    "video": "Object(6).mp4",
+    "source_resolution": "1920x1080",
+    "processed_resolution": "512x512",
+    "fps": 30.0,
+    "frames": 3277,
+    "conf_threshold": 0.25,
+    "original": {
+      "total_det": 2349,
+      "frames_with_det": 2349,
+      "per_class": {
+        "warning": 2349
+      },
+      "mean_conf_per_class": {
+        "warning": 0.83
+      },
+      "mean_det_per_frame": 0.717,
+      "detection_rate": 0.717,
+      "mean_conf_overall": 0.83
+    },
+    "dehazed": {
+      "total_det": 2032,
+      "frames_with_det": 2032,
+      "per_class": {
+        "warning": 2032
+      },
+      "mean_conf_per_class": {
+        "warning": 0.845
+      },
+      "mean_det_per_frame": 0.62,
+      "detection_rate": 0.62,
+      "mean_conf_overall": 0.845
+    },
+    "timing_ms_per_frame": {
+      "dehaze": 35.74,
+      "detect_two_passes": 45.98,
+      "end_to_end": 114.62
+    },
+    "figures": [
+      "Object6_f00655_cmp.png",
+      "Object6_f01310_cmp.png",
+      "Object6_f01965_cmp.png",
+      "Object6_f02620_cmp.png",
+      "Object6_f03191_cmp.png",
+      "Object6_f03196_cmp.png",
+      "Object6_f03260_cmp.png",
+      "Object6_f03274_cmp.png",
+      "Object6_f03275_cmp.png",
+      "Object6_f03276_cmp.png"
+    ]
+  }
+]

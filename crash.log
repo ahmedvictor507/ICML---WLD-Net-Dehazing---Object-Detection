@@ -1,0 +1,11 @@
+Fatal Python error: Segmentation fault
+
+Current thread 0x0000ffffb65766c0 (most recent call first):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 2601 in __init__
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 2679 in __init__
+  File "/home/orin_nano/Desktop/Projects/dehazing_gui/main.py", line 44 in styled_btn
+  File "/home/orin_nano/Desktop/Projects/dehazing_gui/main.py", line 293 in _build_ui
+  File "/home/orin_nano/Desktop/Projects/dehazing_gui/main.py", line 91 in __init__
+  File "/home/orin_nano/Desktop/Projects/dehazing_gui/main.py", line 589 in <module>
+
+Extension modules: numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator (total: 13)

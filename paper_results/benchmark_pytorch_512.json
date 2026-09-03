@@ -1,0 +1,60 @@
+{
+  "backend": "pytorch",
+  "clip": "Object(3).mp4",
+  "resolution": "512x512",
+  "conf": 0.25,
+  "frames_timed": 500,
+  "warmup_discarded": 30,
+  "clock_state": {
+    "cpu_governor": "schedutil",
+    "gpu_cur_hz": 1020000000,
+    "gpu_max_hz": 1020000000,
+    "gpu_at_max": true,
+    "mem_available_mb": 2860
+  },
+  "frames_with_no_detection": 0,
+  "stages_ms": {
+    "decode": {
+      "mean": 5.86,
+      "median": 5.68,
+      "p95": 6.9,
+      "p99": 7.24,
+      "min": 5.49,
+      "max": 8.21
+    },
+    "preprocess": {
+      "mean": 15.28,
+      "median": 15.06,
+      "p95": 16.27,
+      "p99": 17.82,
+      "min": 14.82,
+      "max": 18.39
+    },
+    "dehaze": {
+      "mean": 30.16,
+      "median": 28.96,
+      "p95": 35.3,
+      "p99": 36.99,
+      "min": 26.4,
+      "max": 41.15
+    },
+    "detect": {
+      "mean": 24.49,
+      "median": 23.54,
+      "p95": 29.0,
+      "p99": 30.98,
+      "min": 21.26,
+      "max": 32.55
+    },
+    "end_to_end": {
+      "mean": 75.8,
+      "median": 75.71,
+      "p95": 83.44,
+      "p99": 87.07,
+      "min": 68.64,
+      "max": 89.45
+    }
+  },
+  "fps_mean": 13.19,
+  "fps_p99_worst_case": 11.49
+}
