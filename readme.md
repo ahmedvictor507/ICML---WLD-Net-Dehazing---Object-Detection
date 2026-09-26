@@ -61,7 +61,7 @@ Mixed. The batch evaluation (`run_paper_eval.py`) runs YOLO on the raw hazy fram
 | Object(3) | 2911 | 2902 | 2905 | +0.1% |
 | Object(6) | 3277 | 2349 | 2032 | -13.5% |
 
-These four clips are a subset of the sequences studied in the paper. [**Add here, in your own words and matching the paper: how many sequences were evaluated in total, how many improved, and how the four shown were chosen.**] Per-class counts and mean confidence are in `paper_results/stats.md`. Before/after video is in `paper_results/*.mp4`.
+These four clips are a subset of the sequences studied in the paper. Per-class counts and mean confidence are in `paper_results/stats.md`. Before/after video is in `paper_results/*.mp4`.
 
 ## Quick start
 
@@ -110,7 +110,7 @@ Engines are hardware-specific: build them on the device you deploy to. To verify
 
 ## Credits
 
-- ICEML and WLD-Net dehazing models: [**add authors, paper titles and links, and the licence of the released weights**].
+- ICEML and WLD-Net dehazing models [Wld-net](https://github.com/AliMurtaza29/WLD-Net) [ICEML](https://github.com/Altaza29/ICEML).
 - Detector: [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) (AGPL-3.0).
 - Author of this pipeline, deployment and evaluation: Ahmed Montasser ([LinkedIn](https://www.linkedin.com/in/)) . Contact: ahmontasser507@gmail.com
 
