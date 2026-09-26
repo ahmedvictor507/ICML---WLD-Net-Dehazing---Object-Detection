@@ -113,7 +113,3 @@ Engines are hardware-specific: build them on the device you deploy to. To verify
 - ICEML and WLD-Net dehazing models [Wld-net](https://github.com/AliMurtaza29/WLD-Net) [ICEML](https://github.com/Altaza29/ICEML).
 - Detector: [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) (AGPL-3.0).
 - Author of this pipeline, deployment and evaluation: Ahmed Montasser ([LinkedIn](https://www.linkedin.com/in/)) . Contact: ahmontasser507@gmail.com
-
-## License
-
-[**Choose a licence that is compatible with the model weights and Ultralytics (AGPL-3.0).**]
